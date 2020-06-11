@@ -1,5 +1,5 @@
 ## Gradient descent
-It is to change the value the theta 0 and theta 1 in order to reduce J (theta 0,theta1)
+It is to change the value the theta 0 and theta 1 in order to reduce J (theta 0,theta 1)
 
 ![Cost function](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1592006400000&hmac=pYhwaUgqk7YC7sJ1dHhB-8INeydYVYlT-nfsWSJsL4E)
 ![Cost function](https://2.bp.blogspot.com/-AdV-O-MoZHE/TtLibFTaf9I/AAAAAAAAAVM/aOxUGP7zl98/s1600/gradient+descent+algorithm+OLS.png)
