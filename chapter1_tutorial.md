@@ -1,5 +1,5 @@
 ## Linear Regression
->notation 
+Notation 
 >
 - m = Number of training examples
 >
@@ -18,7 +18,8 @@ x(input)->hypothesis->y(prediction)
 example of symbol:
 
 h(x) = c + mx
->Cost Function
+>
+Cost Function
 >
 ![Cost function](https://pic.pimg.tw/r101086616/1552488386-4264283465.png)
 >
