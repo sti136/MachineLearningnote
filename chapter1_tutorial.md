@@ -11,9 +11,9 @@ Notation
 >
 - (x^i , j^i) -> ith training example
 >
-Training Set -> Learning Algoithm->hypothesis
+Training Set -> Learning Algoithm -> hypothesis
 >
-x(input)->hypothesis->y(prediction)
+x(input) -> hypothesis -> y(prediction)
 >
 example of symbol:
 
