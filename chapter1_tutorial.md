@@ -22,4 +22,4 @@ h(x) = c + mx
 >
 ![Cost function](https://pic.pimg.tw/r101086616/1552488386-4264283465.png)
 >
-note: 1/2 in the cost function is to make convenience of the gradient desent method, it is the difference between the predicted output and the real output.
+note: 1/2 in the cost function is to make convenience of the gradient desent method, Cost function is the difference between the predicted output and the real output.
