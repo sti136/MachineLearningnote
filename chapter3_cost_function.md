@@ -66,3 +66,17 @@ when we need to find h2(x),we can classify the line that y = 2
 ![](picture/chapter3_15.png)
 
 the aims is to maximise all hi(x)
+
+## Overfiting
+```
+overfiting means the prediction is too accurate that it will fail to predict with new example
+```
+![](picture/chapter3_17.jpeg)
+Example of overfiting in logistic regression
+
+![](picture/chaper3_18.jpeg)
+
+## Underfiting
+UNderfiting means there is inaccurate to predict the data because there are a few of example in training
+## How to address overfitting
+![](picture/ch3_19.jpeg)
