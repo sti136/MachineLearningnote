@@ -7,4 +7,4 @@ cost(h(x),y) = 1/2 (h(x)-y)^2
 ```
 The cost function is said be convex if it is being used as logistic regression
 
-second try
+third try
