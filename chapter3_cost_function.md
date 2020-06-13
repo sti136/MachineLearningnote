@@ -24,4 +24,45 @@ On the other hand, when y = 0, h(x) = 1 , the cost is also high, and the shape i
 
 the algoithm is doing the iteration which is same as the linear regression, it is recommended to use vector to calculate each iteration in the programming assignment
 
+## Advance optimization
 
+
+![](picture/chapter3.11.png)
+
+- in optimization algoithm, we need to calculate the partial derivative of cost function
+and plug it into the gradient descent
+
+
+![](picture/chapter3_12.png)
+
+but instaead of gradient descent 
+it has conjugate gradient, BFGS etc 
+
+![](picture/chapter3_14.png)
+the function is used as above
+
+in order to use the function fminunc(), the example code is
+```
+function [jVal, gradient] = costFunction(theta)
+  jVal = [...code to compute J(theta)...];
+  gradient = [...code to compute derivative of J(theta)...];
+end
+
+options = optimset('GradObj', 'on', 'MaxIter', 100);
+initialTheta = zeros(2,1);
+   [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+```
+
+## Multiclass Classification: One-vs-all
+In the logistic regression taught before, it is only have two cases(y=0,y=1), this chapter is to show if y have more than 2 value
+
+example :
+
+when we need to find h1(x) we can classify the line that y = 1
+
+when we need to find h2(x),we can classify the line that y = 2
+ 
+ and so on
+![](picture/chapter3_15.png)
+
+the aims is to maximise all hi(x)
