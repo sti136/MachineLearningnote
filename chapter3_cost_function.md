@@ -80,3 +80,21 @@ Example of overfiting in logistic regression
 UNderfiting means there is inaccurate to predict the data because there are a few of example in training
 ## How to address overfitting
 ![](picture/ch3_19.jpeg)
+
+## Regularization
+
+![](picture/ch3_20.jpeg)
+
+- The cost function will become overfiting because some of the parameter become too large, in order to reduce the effect of every single parameter ,we will add the regularization terms which is lambda * summation of theta 1 to theta n
+
+![](picture/ch3_21.jpeg)
+
+- the cost function will be underfit if the regularization parameter lambda is too large.
+
+## Application of regularization
+
+Gradient Descent
+![](picture/ch3_22.jpeg)
+(1-alpha*lambda/m) is less then 1, which means theta j is decreasing ,it is the aims of regularization
+Normal equation
+![](picture/ch3_23.jpeg)
