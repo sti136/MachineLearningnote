@@ -24,7 +24,7 @@ Thus ,due not to pay the high cost, we combine two cost function together.
 
 ![](picture/chapter3_10.png)
 
-the algoithm is doing the iteration which is same as the linear regression, it is recommended to use <mark>vector to calculate </mark>each iteration in the programming assignment
+the algoithm is doing the iteration which is same as the linear regression, it is recommended to use <b>vector to calculate </b>each iteration in the programming assignment
 
 ## Advance optimization
 
@@ -92,7 +92,7 @@ Underfitting means there is inaccurate to predict the data because there are a f
 
 ![](picture/ch3_20.jpeg)
 
-- The cost function will become overfitting because <mark>some of the parameter become too large</mark>, in order to reduce the effect of every single parameter ,we will add the regularization terms which is lambda * summation of theta 1 to theta n
+- The cost function will become overfitting because <b>some of the parameter become too large</b>, in order to reduce the effect of every single parameter ,we will add the regularization terms which is lambda * summation of theta 1 to theta n
 
 ![](picture/ch3_21.jpeg)
 
