@@ -23,6 +23,7 @@ want 0<=h(x)<=1
 2. logistic function is also called sigmoid function
 
 3. the curve of logistic regression is as the picture above
+
 ![f](picture/chapter3.2.jpeg)
 
 4. h(x) means the probability the y = 1 in input x
@@ -34,5 +35,5 @@ want 0<=h(x)<=1
 ![f](picture/chapter3.3.png)
 - g(z)>= 0.5 , then z>=0
 
-- because theta^T*X > 0, you can apply it to find a striaght line on to the graph,it is called the decision boundary, provided that the value of theta was chosen.
+- because theta^T*X > 0, you can apply it to find a striaght line on to the graph,it is called the decision boundary, provided that the value of theta was given.
 

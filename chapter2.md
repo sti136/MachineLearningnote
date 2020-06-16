@@ -31,12 +31,12 @@ Two test to know the cost function is minimized correctly
 
 1.Debugging gradient descent: to see the trend of cost function is decreasing not increasing.If it is increasing, you may use the smaller rate to fix it
 
-2.Automatic convergence test: the iteration stop if the value of cost function descrease is smaller than 10^-3(threshold value), it is difficult to fina a good threshold value
+2.Automatic convergence test: the iteration stop if the value of cost function descrease is smaller than 10^-3(threshold value), it is difficult to find a good threshold value
 
 two phenomemon of alpha(learning rate)
 1. the learning will be slow if alpha is too small
 2. the cost function will increase and not converge if the alpha is too large
-## Abour the Feature and Polynomial regression
+## About the Feature and Polynomial regression
 1. you can combine some features together to be a feature if needed
 2. If you want a specific trend in your regression you can adjust it to square,cubic function if you want
-3. but the range will be different through adjust and the value of normalization is different
+3.the range of the training set will be different through adjust and the value of normalization is different
