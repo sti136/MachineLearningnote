@@ -1,7 +1,7 @@
  ## Multiple variables linear regression
  - linear regression with multiple varables
 
-Notation
+## Notation
 -
 - x^i the input in ith training example
 - m = the number of trsining example
