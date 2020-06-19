@@ -27,3 +27,25 @@ How to calulate the output with vectorized implementation?
 4. calulate z2 = theta2 * a2
 
 and loop until you find the output
+
+## Some example of non-linear example of Neural Networks
+
+In order to present the xor function in Neural Networks
+we need to learn how to present logistic function below:
+
+AND Function 
+![](picture/ch4_6.jpeg)
+OR Function
+![](picture/ch4_7.jpeg)
+Negation Function
+![](picture/ch4_8.jpeg)
+XNOR Function 
+1. take the features with AND operation and NAND operation seperately.
+2. take the results in step 1 with OR operation
+the opration is shown as below
+
+![](picture/ch4_9.png)
+## How to present the classification problem with Neural Networks 
+
+output value is the boolean value of the object you classify. Each row represent one object.
+![](picture/ch4_10.jpeg)
