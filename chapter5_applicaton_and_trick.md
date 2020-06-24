@@ -25,3 +25,19 @@ The code expression of gradient checking:
 Some important notes of gradient checking: 
 ![](picture/ch5_10.jpg)
 1. turn off gradient checking before training thr classifier or it will be very slow
+
+## Random initialization
+Why we need to use random initialization? Why we don't use the previous method(zero initialization)?
+The picture below tells us the answer. because all parameter is identical if we use zero initialization, then the partial differentiation is identical, then it will subtracting(adding) with same value each update, those hidden unit will become <b>identical</b> every update.
+![](picture/ch5_11.jpeg)
+
+That's why we need random initialzation, it is to prevent they have the same parameter(symmetry breaking).
+
+![](picture/ch5_12.jpeg)
+
+it is to initialze the theta to a random value in range of -epsilon to epsilon
+note: those two parameters in rand() function, is to detemine the row and the column of the random matrices you want.
+
+## put those things we learnt in this chapter together
+![](picture/ch5_13.png)
+![](picture/ch5_14.jpeg)
