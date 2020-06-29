@@ -50,3 +50,11 @@ So How to compare the precision/recall number?
 obvious;y, P+R/2 is not a good choice(cannot prevent extremely high recall/precision)
 we will use 2(PR)/(P+R)
 ![](picture/ch6_29.png)
+## Large Dataset
+Here is an example of of training a classifier between confusable words, Banko and Brill use 4 algoithm to train and draw a graph with respect to the traininf set size(learning curve)
+The result is not who has best algoithm ,it is who has the most data learns better.
+![](picture/ch6_30.png)
+First thing we should consider in training a large dataset is to use a expert aspects: Do you think an expert can classify the output after getting this set of parameters? If it can, keep the amount of features. If it can't adding some more features
+![](picture/ch6_31.png)
+
+![](picture/ch6_32.png)
