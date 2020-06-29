@@ -46,5 +46,7 @@ The result is that it will high the precision and lower the recall.
 
 If we just don't want to miss too many cases, we lower the threshold, which will leads to high recall but lower precision.
 ![](picture/ch6_28.png)
-
+So How to compare the precision/recall number?
+obvious;y, P+R/2 is not a good choice(cannot prevent extremely high recall/precision)
+we will use 2(PR)/(P+R)
 ![](picture/ch6_29.png)
