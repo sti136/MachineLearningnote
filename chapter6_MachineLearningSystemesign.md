@@ -44,7 +44,7 @@ in logistic regression, we predict 1 when h(x)>0.5, 0 when h(x)<0.5.
 If we wants to predict more strictly, predict 1 if it is certain. So we higher the threshold to 0.7
 The result is that it will high the precision and lower the recall.
 
-If we just don't want to miss too many cases, we lower the threshold, which will leads to high recall but lower precision
+If we just don't want to miss too many cases, we lower the threshold, which will leads to high recall but lower precision.
 ![](picture/ch6_28.png)
 
 ![](picture/ch6_29.png)
