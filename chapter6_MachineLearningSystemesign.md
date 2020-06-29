@@ -1,0 +1,50 @@
+## Machine Learning System Design
+So we would like to build a spam detector, it is 1 when it is a spam and it is 0 when it is not a spam.
+![](picture/ch6_21.jpeg)
+In order to build a spam classifier, we woul like to choose the key words of spam email(x = 1 when the word appear, x = 0 when the word doesn't show up.)
+
+we may choose ten thousands of words to do a spam classifier.
+![](picture/ch6_22.jpeg)
+
+Doing something to have a low error
+
+1. collect more data
+2. adding more features in email header
+3. add algorithm to detect misspellings
+
+![](picture/ch6_23.jpeg)
+## Error analysis
+For eample, if the algoithm misclassifies 100 emails, what you first need to do is to categorize them error and find out which type of the email is misclassified most. Then we think about can I do something about it(is there anything wrong in classifing those email)
+![](picture/ch6_24.png)
+## The importance of numberical evaluation 
+Example:
+Should we treat discount/discounts/... as the same word?
+How: using stemming software
+
+cons:
+it may treat some different words as same words wrongly (e.g: universe/university)
+
+so how to determine will we use the stemming software or not
+
+solution:
+To choose the result with least error,but note that be aware of overfitting
+
+![](picture/ch6_25.png)
+
+## Error Metrics for Skewed Classes
+ley say a model with 1% error, which means 0.5% patients have cancer and 0.5 haven't (as the extreme in normal distribution curve).We call the error rate as skewed classes. But the smaller the skewed class doesn't mean the better the model
+![](picture/ch6_26.jpeg)
+So we introduce two classifier precision/recall
+Precision means what is thefraction actually has cancer when we predicted y = 1?
+
+Recall means what fraction did we correctly detect as having cancer , while the patientlys actually has cancer.
+![](picture/ch6_27.png)
+in logistic regression, we predict 1 when h(x)>0.5, 0 when h(x)<0.5.
+
+If we wants to predict more strictly, predict 1 if it is certain. So we higher the threshold to 0.7
+The result is that it will high the precision and lower the recall.
+
+If we just don't want to miss too many cases, we lower the threshold, which will leads to high recall but lower precision
+![](picture/ch6_28.png)
+
+![](picture/ch6_29.png)
