@@ -54,7 +54,10 @@ we will use 2(PR)/(P+R)
 Here is an example of of training a classifier between confusable words, Banko and Brill use 4 algoithm to train and draw a graph with respect to the traininf set size(learning curve)
 The result is not who has best algoithm ,it is who has the most data learns better.
 ![](picture/ch6_30.png)
-First thing we should consider in training a large dataset is to use a expert aspects: Do you think an expert can classify the output after getting this set of parameters? If it can, keep the amount of features. If it can't adding some more features
+First thing we should consider in training a large dataset is to use a expert aspects: Do you think an expert can classify the output after getting this set of parameters? If it can, keep the amount of features. If it can't ,add some more features
 ![](picture/ch6_31.png)
-
+If we use a learning algoithm with many prarmeter, it will be a low bias algoithm the J_train(theta) will br small
+If we use a very large training set i will be a low variance algoithm
+the J_train(theta) will be simliar to J_test(theta)
+and the J_train(theta) will be very small 
 ![](picture/ch6_32.png)
