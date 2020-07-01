@@ -28,3 +28,15 @@ if C is  large,it may simply have a decision boundary to boarder the all of exam
 
 As C = 1/lambda.
 ![](picture/ch7_6.jpeg)
+
+## Mathematics Behind Large Margin Classification
+So we now need to prove the result of u^t *v
+which is u1v1+u2v2
+![](picture/ch7_7.jpeg)
+and we apply the proof to the case of theta^t * x
+
+we can see theta1 * x1 + theta2 * x2 is either >= 1 or <= -1
+
+![](picture/ch7_8.jpeg)
+In this graph, we can see that boardary from SVM has large margin,then the p(i) of that will be larger,which means the theta can be smaller.
+![](picture/ch7_9.jpeg)
