@@ -31,3 +31,24 @@ Larger C will leads to low bia, high variance,vice versa
 
 Largr simgma^2 will leads to higher bias.and lower variance,vice versa.
 ![](picture/ch7_16.png)
+
+## Using the SVM
+We can use the software package, instead of build the SVM from scretch
+
+we need to first choose the parameter C and the kernel
+
+We can choose linear kernel,which means no kernel and SVM forms linear boundary 
+![](picture/ch7_17.jpeg)
+remember to do feature feature scaling
+![](picture/ch7_18.jpeg)
+beside Gaussian, it will have plenty of kernels(e.g:ploybomial) but it needs to satisfy Mercer's Theorem
+![](picture/ch7_19.jpeg)
+SVM packages already have bulti multi-class classification,if not you can use one-vs-all method to train K SVMs
+![](picture/ch7_20.jpeg)
+So, when to use those algos?
+```
+If n is large relative to m),then use logistic regression
+If n is small and m is intermate, then use SVM withGaussian kernel
+If n is small and m is large, use logistic regression or SVM without a kernel
+```
+![](picture/ch7_21.jpeg)
