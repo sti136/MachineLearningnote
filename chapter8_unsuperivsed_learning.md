@@ -48,3 +48,14 @@ K-means algoithm
 3. to move centroid
 
 ![](picture/ch8_8.jpeg)
+## Random initialization
+The random initia;ization is to pick random K examples and assign it to the cluster centroids
+
+![](picture/ch8_9.jpeg)
+local optima means the crntroids sometimes can not as perfect as we want. It may struck at the same cluster
+
+![](picture/ch8_10.jpeg)
+How to solve local optima?
+
+We do the process so many times (100 times) and pick the clustering that give the lowest cost
+![](picture/ch8_11.jpeg)
