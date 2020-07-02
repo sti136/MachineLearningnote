@@ -33,3 +33,18 @@ To implement the algoithm:
 
 Just a sweet reminder from lecturer, some of the case may not be as perfect as that you can see the clear clusters but we can still classify clusters in the algoithm.
 ![](picture/ch8_6.png)
+## Optimization Objective
+knoeing the objective have 2 purposes
+1.it can help us to debug 
+2.to prevent strucking on local optima
+
+so the optimization objective is to minize the distance between cluster centroid and all its corresponding points
+
+![](picture/ch8_7.jpeg)
+
+K-means algoithm 
+1. randomly initialize k cluster controids
+2. to assign x to the cluster centroids
+3. to move centroid
+
+![](picture/ch8_8.jpeg)
