@@ -59,3 +59,12 @@ How to solve local optima?
 
 We do the process so many times (100 times) and pick the clustering that give the lowest cost
 ![](picture/ch8_11.jpeg)
+## Choosing the Number of Clusters
+How to choose the number of clusters?
+1. the cost function with different K, then find the elbow.
+but elbow sometime is not sharp if the graph is quadratic
+![](picture/ch8_12.jpeg)
+
+Sometime you may have some specific value of K for example you need to have 3 cluster to classify the S , M ,L 
+3 sizes of clothes respectively.
+![](picture/ch8_13.jpeg)
