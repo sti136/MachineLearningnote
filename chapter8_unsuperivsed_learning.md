@@ -68,7 +68,8 @@ but elbow sometime is not sharp if the graph is quadratic
 Sometime you may have some specific value of K for example you need to have 3 cluster to classify the S , M ,L 
 3 sizes of clothes respectively.
 ![](picture/ch8_13.jpeg)
-## Data Compression
+## Dimensionality Reduction
+## 1. Data Compression
 Sometime , in order to keeps the algoithm run faster and reduce some features, we will use data compression.
 
 For example, if you see two features are redundant or two features can combine it to form another new features. then you may need to compress your data
@@ -77,3 +78,22 @@ the compressed results calls z in the exampleand lies on a new dimensions
 ![](picture/ch8_15.jpeg)
 Here is the examples compressed from 3d to 2d.
 ![](picture/ch8_16.jpeg)
+
+## 2. Data Visualization
+This parts aims to reduce the feature until we can draw graphs with those features(2d & 3d) 
+In this example you need to reduce the features to 2d or 3d as we can not plot graphs with 50 features
+![](picture/ch8_18.jpeg)
+the result like this
+![](picture/ch8_17.jpeg)
+graph like this
+![](picture/ch8_19.jpeg)
+## Principal Componont Analysis
+PCA is an algoithm of Dimensionality Reduction
+1. draw a line(a pair of vector)
+2. minimize the perpendicular distance of each point to the line
+
+![](picture/ch8_20.png)
+If it is reduce from n to k dimension, you must have k vector with k dimension 
+![](picture/ch8_21.png)
+The main difference pf PCA and linear regression is that PCA is minimizing the perpendcular distance and linear regression is to minimize the vertical distance of the point to the line
+![](picture/ch8_22.png)
