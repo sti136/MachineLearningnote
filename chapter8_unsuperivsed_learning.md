@@ -68,3 +68,12 @@ but elbow sometime is not sharp if the graph is quadratic
 Sometime you may have some specific value of K for example you need to have 3 cluster to classify the S , M ,L 
 3 sizes of clothes respectively.
 ![](picture/ch8_13.jpeg)
+## Data Compression
+Sometime , in order to keeps the algoithm run faster and reduce some features, we will use data compression.
+
+For example, if you see two features are redundant or two features can combine it to form another new features. then you may need to compress your data
+![](picture/ch8_14.jpeg)
+the compressed results calls z in the exampleand lies on a new dimensions
+![](picture/ch8_15.jpeg)
+Here is the examples compressed from 3d to 2d.
+![](picture/ch8_16.jpeg)
