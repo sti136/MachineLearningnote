@@ -97,3 +97,11 @@ If it is reduce from n to k dimension, you must have k vector with k dimension
 ![](picture/ch8_21.png)
 The main difference pf PCA and linear regression is that PCA is minimizing the perpendcular distance and linear regression is to minimize the vertical distance of the point to the line
 ![](picture/ch8_22.png)
+
+## Reconstruction from Compressed Representation
+We havew talked about the compression , to reconstruction from the compression 
+```
+x_approxiate = U_reduce * z
+```
+
+![](picture/ch8_23.jpeg)
