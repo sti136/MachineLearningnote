@@ -105,3 +105,15 @@ x_approxiate = U_reduce * z
 ```
 
 ![](picture/ch8_23.jpeg)
+
+## Choosing the Number of Principal Components
+How to choose the k ,we have two methods to do it
+First method
+1. calculate squared projection error and total variation in the data 
+2. calulate the smallest value of k which the result of the formula(shown on the graph below) is lower than 0.01(0.05 or 0.1)
+![](picture/ch8_24.jpeg)
+But the computation is expensive in the first method, so we use svd(Sigma) to calculate the S matrix and
+calculate with the formula on the right-hand side of the picture below
+![](picture/ch8_25.jpeg)
+to summarize
+![](picture/ch8_26.jpeg)
