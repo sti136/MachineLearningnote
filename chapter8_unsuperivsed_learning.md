@@ -117,3 +117,14 @@ calculate with the formula on the right-hand side of the picture below
 ![](picture/ch8_25.jpeg)
 to summarize
 ![](picture/ch8_26.jpeg)
+
+## Advice for Applying PCA
+To summarise, we compress x(m = 10000) -> z(m = 1000)
+we need to define U_reduce by running PCA and it can also be used on cross vaildation and test set
+![](picture/ch8_27.jpeg)
+The summary of application of PCA
+![](picture/ch8_28.jpeg)
+Don't use PCA to prevent overfitting, it may compress some useful features.As an alternative we may use regularization instead
+![](picture/ch8_29.jpeg)
+We recommend using the raw training set first, if it occurs some problem(the storage is huge and the process is slow and you need to visualize the data),then we will consider impletmenting PCA or using z(i)
+![](picture/ch8_30.jpeg)
