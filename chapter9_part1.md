@@ -23,3 +23,17 @@ mu is the mean of those example.
 sigma^2 is the variance of those example.
 
 ![](picture/ch9_6.jpg)
+## Density estimation algoithm
+To build a algoithm, the p(x) of the algoithm is the multiplication of the p(x) of each feature.
+![](picture/ch9_7.jpg)
+How to calculate p(x)?
+1.you need to first calculate mu and sigma
+2.apply mu and sigma to the formula that compute p(x)
+
+![](picture/ch9_8.jpg)
+Applicatopn of anomaly detection
+
+1. we calulate the p(x) first, wheer x is stands for the new example.
+
+2. we compare the p(x) is greater than the threshold of not. if yes we determine it as anormaly,if not we treat it as ok.
+![](picture/ch9_9.jpg)
