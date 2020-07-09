@@ -46,5 +46,5 @@ but the CV and test set is labeled.
 ![](picture/ch9_10.jpg)
 For eaxmple, we have 6000 emgime, we assign a portion of them as CV set, and same amount them as test set.
 ![](picture/ch9_11.jpg)
-We fit the model with training set and predict the anormaly in the CV/test set,on the stewed set, the training example can always predict y = 0 , it will correct most of the time, you can use precision/recall F1-score etc method to evaluate it
+We fit the model with training set and predict the anormaly in the CV/test set,on the stewed set, the training example can always predict y = 0 , it will be correct most of the time, you can use precision/recall F1-score etc method to evaluate it
 ![](picture/ch9_12.jpg)
