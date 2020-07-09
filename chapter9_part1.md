@@ -18,7 +18,7 @@ The value of the mu is the centre of the distribution
 ![](picture/ch9_5.jpg)
 How to apply to machine learning?
 
-mu is the mean of those example.
+Mu is the mean of those example.
 
 sigma^2 is the variance of those example.
 
